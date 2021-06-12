@@ -5,7 +5,7 @@ import sys
 from pickle import dump
 
 import numpy as np
-from tfsnippet.utils import makedirs
+from os import makedirs
 
 output_folder = 'processed'
 makedirs(output_folder, exist_ok=True)
